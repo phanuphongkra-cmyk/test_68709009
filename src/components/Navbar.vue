@@ -16,15 +16,23 @@
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/showproduct">Show Product</router-link>
+            <router-link class="nav-link" to="/customer_crud">Customer_CRUD</router-link>
             </li>
            <li class="nav-item">
             <router-link class="nav-link" to="/customer">Customer</router-link>
             </li>
-            <li class="nav-item">
-            <router-link class="nav-link" to="/employee">Employee</router-link>
-            </li>
-            <li class="nav-item dropdown">
+            
+            
+            <li class="nav-item dropdown">   
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Employee
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/employee">Employee</a></li>
+            <li><a class="dropdown-item" href="/employee_crud">Employee_crud</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Register
           </a>
@@ -37,9 +45,17 @@
            <li class="nav-item">
             <router-link class="nav-link" to="/about">About</router-link>
             </li>
-            <li class="nav-item">
-            <router-link class="nav-link" to="/contact">contact</router-link>
-            </li>
+        <li class="nav-item dropdown">   
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contact
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/contact">Contact</a></li>
+            <li><a class="dropdown-item" href="/contact_crud">Contact_crud</a></li>
+          </ul>
+        </li>
+            
+            
             
             
         </ul>
