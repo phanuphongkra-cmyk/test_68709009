@@ -29,7 +29,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/employee">Employee</a></li>
-            <li><a class="dropdown-item" href="/employee_crud">Employee_crud</a></li>
+            <li><a class="dropdown-item" href="/student_crud">Student_crud</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -69,5 +69,3 @@ export default {
   name: "Navbar"
 }
 </script>
-
-
